@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaUser, FaEnvelope, FaPhone } from "react-icons/fa";
 
-const API = "http://localhost:4000/api/user";
+const API = "https://heroteck-assingment.onrender.com/submit";
 
 function App() {
   const [formData, setFormData] = useState({
